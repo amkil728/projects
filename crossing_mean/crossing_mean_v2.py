@@ -1,7 +1,5 @@
 # crossing_mean_v2.py
 
-a_list = [0, 0, 3, 0, 4, 5, -2, 3, -4, -2, -3, 1, 6, 0, 4, -3, -2, 6, 7, 8, 2, 0, 5]
-
 def sign(n):
     if n > 0:
         return 1
