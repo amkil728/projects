@@ -1,11 +1,12 @@
 '''crossing_mean.py
 
-Find the gaps between each time the mean of a list is crossed, i.e, if items are
-initially bigger than mean, first index at which they become (strictly) less than mean,
-and vice versa.
+Find the gaps between each time the mean of a list is crossed, i.e, if values are
+initially greater than the mean, the first index at which they become (strictly) less
+than the mean, and vice versa.
 '''
 
 def sign(n):
+    '''Returns the sign of a number n.'''
     if n > 0:
         return 1
     elif n < 0:
