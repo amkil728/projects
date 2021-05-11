@@ -16,7 +16,11 @@ def sign(n):
 
 
 def sign_change_gaps(a_list):
-    ''' Given a_list of numeric values, find the gaps between sign changes'''
+    ''' Given a_list of numeric values, find the gaps between sign changes.
+    
+    Argument: a_list - list of numeric values
+    
+    Returns: list of gaps between sign changes.'''
     start_index = -1
 
     # Find index of first non-zero value and its sign
@@ -59,9 +63,12 @@ def sign_change_gaps(a_list):
 
 
 def mean_crossing_gaps(a_list):
-    '''Given a_list of numeric values, find the gaps between mean crossings, i.e,
+    '''Given a list of numeric values, find the gaps between mean crossings, i.e,
     the indices at which values change from being greater than mean to less than mean,
-    or vice versa
+    or vice versa.
+    
+    Argument: a_list of numeric values
+    Returns: list of gaps between mean crossings
     '''
     # First, find mean of list
     mean = sum(a_list) / len(a_list)
@@ -76,6 +83,7 @@ def mean_crossing_gaps(a_list):
 
 
 def average_mean_crossover(a_list):
+    '''Returns the average number of times mean crossings occur in a_list.'''
     gaps = mean_crossing_gaps(a_list)
     crossovers = len(gaps)
     return len(a_list) / crossovers
