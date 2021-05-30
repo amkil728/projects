@@ -1,8 +1,8 @@
-# anagram_phrases_v2.py
+# anagram_finder.py
 
-''' anagram_phrases.py
+''' anagram_finder.py
 
-@author aayush
+@author amkil728
 @version 12/04/21
 
 Allows the user to interactively construct a phrase that is an anagram of a
