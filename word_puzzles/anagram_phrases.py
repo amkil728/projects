@@ -1,6 +1,6 @@
 ''' anagram_phrases.py
 
-@author aayush
+@author amkil728
 @version 12/04/21
 
 Allows the user to interactively construct a phrase that is an anagram of a
